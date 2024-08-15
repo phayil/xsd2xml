@@ -152,6 +152,7 @@ class GenXML:
         print '<!--START:[' + model + ']-->'
         if self.enable_choice and model == 'choice':
             print '<!--next item is from a [choice] group with size=' + str(y) + '-->'
+            //did you forget the (  and )  ???
         else:
             print '<!--next ' + str(y) + ' items are in a [' + model + '] group-->'
             
